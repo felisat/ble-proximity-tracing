@@ -1,16 +1,15 @@
 # Estimation of SARS-CoV-2 Transmission from Bluetooth Low Energy Measurements
 
 
-This repository contains the Bluetooth Low Energy received signal strength measurements with corresponding ground-truth distances which were anylyzed in our paper
+This repository contains the Bluetooth Low Energy received signal strength measurements with corresponding ground-truth distances which were analyzed in the paper
 
 [Estimation of SARS-CoV-2 Transmission from Bluetooth Low Energy Measurements](https://arxiv.org/abs/2004.11841)
-
-Felix Sattler, Jackie Ma, Patrick Wagner, David Neumann, Markus Wenzel, Ralf Schäfer, Wojciech Samek, Klaus-Robert Müller, Thomas Wiegand
+by Felix Sattler, Jackie Ma, Patrick Wagner, David Neumann, Markus Wenzel, Ralf Schäfer, Wojciech Samek, Klaus-Robert Müller, Thomas Wiegand
 
 A detailed description of the experiment setup can be found in the paper and the accompanying supplementary materials.
 
 # How to use the data
-The data is stored in .json files in the `data/` folder. To load the data you can use the pythos scripts available in `utils/`. For example, running
+The data is stored in .json files in the `data/` folder. To load the data you can use the python scripts available in `utils/`. For example, running
 
 ```python
 from utils import data_utils
