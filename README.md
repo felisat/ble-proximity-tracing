@@ -15,7 +15,8 @@ The data is stored in .json files in the `data/` folder. To load the data you ca
 
 ```python
 from utils import data_utils
-data_train = data_utils.load_data('data/bundeswehr-04-01/data_train.json')```
+data_train = data_utils.load_data('data/bundeswehr-04-01/data_train.json')
+```
 
 will load a list of data items from the training split, which was collected on the 1st of April 2020. Every data item is a dictionary containing the following keys:
 
